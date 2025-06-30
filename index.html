@@ -21,25 +21,30 @@
 
 <div class="form" id="form">
 
-      <form>
+      <form  id="Registro_de_Credenciales" id="Nombre Clave" id="Departamento" id="Correo de Trabajo" id=" Codigo de acceso" id="Confirmar su codigo de acceso">
 
-<h2>Registro de Credenciales</h2>
-<input type="text" placeholder="Nombre Clave">
-<input type="text" placeholder="Departamento">
-<input type="email" placeholder="Correo de Trabajo">
-<input type="password" placeholder="Codigo de acceso">
-<input type="password" placeholder="Confirmar su codigo de acceso">
+<h2>Registro_de_Credenciales</h2>
+<input type="text" placeholder="Nombre_Clave" id="Nombre_Clave">
+<input type="text" placeholder="Departamento" id="Departamento">
+<input type="email" placeholder="Correo_de_Trabajo" id="Correo_de_Trabajo">
+<input type="password" placeholder="Codigo_de_acceso" id="Codigo_de_acceso">
+<input type="password" placeholder="Confirmar_su_codigo_de_acceso" id="Confirmar_su_codigo_de_acceso">
 <input type="submit" class="btn" value="enviar">
 
 </form>
 
- <script>
+<script>
     document.getElementById('ingresarBtn').addEventListener('click', function(e) {
       e.preventDefault();
       document.getElementById('contenedor').style.display = 'none';
       document.getElementById('form').style.display = 'block';
     });
-  </script>
+
+  document.getElementById('Registro_de_Credenciales').addEventListener('submit', function(e) {
+    e.preventDefault();
+    window.location.href = 'https://youtu.be/JX3e2ip0E7Q?si=ikJm5NgMBGJYeyex';});
+
+ </script>
 
 </div>
 
